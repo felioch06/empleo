@@ -6,7 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="../css/bootstrap.css">
-    <title>Empleos</title>
+    <link rel="icon" type="image/png" href="../img/icop.png" />
+
+    <title>EMPLEOCOL</title>
+
     
 </head>
 <body>
@@ -27,24 +30,38 @@
         <div class="col-md-3 ">
             <div class="container-filtro"><h4>Filtros</h4> </div>
             <div class="container-filtro-2"><h6 >Selecciona una categoría</h6> 
-                 <select name="Seleccionar" id="">
+                <form action="post">
+                 <select name="Seleccionar" id="" class="btn-block-md btn-md">
                      <option value="">Seleccionar...</option>
-                     <option value="">Servicios profesionales</option>
+                     <option value="servicios profesionales">Servicios profesionales</option>
                      <option value="">Venta al por mayor</option>
                      <option value="">Fabricación</option>
                      <option value="">Salud y medicina</option>
                      <option value="">Educación</option>
                  </select>
-                 <button class="btn btn-success">Buscar</button>
-            </div>
+                 <br>
+                 <div style="width: 100%;text-align: center" > 
+                        <button class="btn btn-success" style="width: 80%" >Buscar</button> </div>
+                    </div>
+                    </form>
+                    <div class="container-filtro"><h5 >Cargo</h5> </div>
+                        <div class="container-filtro-2" style="width: 100%;display:block;text-align: center"> 
+                            <br>
+                            <form action="POST">
+                            <input type="text" placeholder="Ejemplo: Programador..." class="btn-block-md btn-md" name="cargo">
+                            <br>
+                            <button class="btn btn-success btn-lg"  style="width: 80%">Buscar</button>
+                            </form>
+                    </div>
 
-            <div class="container-filtro"><h5 >Cargo</h5> </div>
-                <div class="container-filtro-2"> 
-                    <br>
-                    <input type="text" placeholder="Ejemplo: Programador..." class="btn-block-md btn-md">
-                    <br>
-                    <button class="btn btn-success btn-lg btn-block" >Buscar</button>
-            </div>
+            <div class="container-filtro"><h5 >Ciudad</h5> </div>
+            <div class="container-filtro-2"> 
+                    <li> <a href="" class="without-design">Bogotá D.C (10.300)</a></li>
+                    <li>  <a href="" class="without-design">Medellín (9.500)</a></li>
+                    <li>  <a href="" class="without-design">Bucaramanga (3.444)</a></li>
+                    <li>  <a href="" class="without-design">Cali (3.320)</a></li>
+                    <li>  <a href="" class="without-design">Ibagué (2.670)</a></li>
+        </div>
 
         </div>
 
@@ -83,7 +100,7 @@
                          <li><img src="../img/ico05.png" alt=""></li>
                          <li><img src="../img/ico05.png" alt=""></li>
                          <li><img src="../img/ico05.png" alt=""></li>
-                         <li></li>
+                         
                      </ul>
                     
                 </div>
@@ -95,11 +112,11 @@
                 <div class="pic-circle-02"></div>
 
                 <br>
-                <strong> CREZCAMOS S.A </strong>
+                <strong>  Eficacia </strong>
                 <br>
-                <br>Invertir para contribuir al crecimiento de la micro, pequeña y mediana empresa, de la población de bajos ingresos rural y urbana.
+                <br>Somos una empresa colombiana con más de 32 años de experiencia en soluciones comerciales. la mejor que existe en el mercado.
                 <br>
-                <br>Carrera 9 #23 esquina, Tunja, Boyacá
+                <br> Dg. 75 Bis  #20-37
                 <br><br>
                     <div> 
                      <ul>
@@ -107,7 +124,7 @@
                          <li><img src="../img/ico05.png" alt=""></li>
                          <li><img src="../img/ico05.png" alt=""></li>
                          <li><img src="../img/ico05.png" alt=""></li>
-                         <li><img src="../img/ico05.png" alt=""></li>
+                    
                      </ul>
                     
                 </div>
@@ -115,11 +132,11 @@
                 <div class="pic-circle-03"></div>
 
                 <br>
-                <strong> CREZCAMOS S.A </strong>
+                <strong> BIMBO DE COLOMBIA S.A. </strong>
                 <br>
-                <br>Invertir para contribuir al crecimiento de la micro, pequeña y mediana empresa, de la población de bajos ingresos rural y urbana.
+                <br>Grupo Bimbo es la empresa líder de panificación en el mundo, inició operaciones el 2 de diciembre de 1945 con sólo 34 colaboradores en la Ciudad de México.
                 <br>
-                <br>Carrera 9 #23 esquina, Tunja, Boyacá
+                <br>Cra. 90 #8934, Bogotá
                 <br><br>
                     <div> 
                      <ul>
@@ -135,11 +152,11 @@
                 <div class="pic-circle-04"></div>
 
                 <br>
-                <strong> CREZCAMOS S.A </strong>
+                <strong> POSTOBON S.A </strong>
                 <br>
-                <br>Invertir para contribuir al crecimiento de la micro, pequeña y mediana empresa, de la población de bajos ingresos rural y urbana.
+                <br>Somos líderes a nivel nacional en la producción y venta de bebidas no alcohólicas. Llevamos 115 años contribuyendo al desarrollo de Colombia con el objetivo de hacer que el país se tome la vida.
                 <br>
-                <br>Carrera 9 #23 esquina, Tunja, Boyacá
+                <br>Cl. 17a #75, Bogotá
                 <br><br>
                     <div> 
                      <ul>
@@ -147,22 +164,22 @@
                          <li><img src="../img/ico05.png" alt=""></li>
                          <li><img src="../img/ico05.png" alt=""></li>
                          <li><img src="../img/ico05.png" alt=""></li>
-                         <li><img src="../img/ico05.png" alt=""></li>
+                        
                      </ul>
                     
                 </div>
 
             </div>
-
         <div class="col-md-2">
+
                 <div class="pic-circle-05"></div>
 
                 <br>
-                <strong> CREZCAMOS S.A </strong>
+                <strong> Adecco Colombia S.A. </strong>
                 <br>
-                <br>Invertir para contribuir al crecimiento de la micro, pequeña y mediana empresa, de la población de bajos ingresos rural y urbana.
+                <br>Adecco es una multinacional de origen Franco-Suizo, líder en el mercado y proveedor experto en Soluciones Integrales para la gestión del Recurso Humano. 
                 <br>
-                <br>Carrera 9 #23 esquina, Tunja, Boyacá
+                <br>Cra. 7 #76-35, Bogotá
                 <br><br>
                     <div> 
                      <ul>
@@ -170,7 +187,7 @@
                          <li><img src="../img/ico05.png" alt=""></li>
                          <li><img src="../img/ico05.png" alt=""></li>
                          <li><img src="../img/ico05.png" alt=""></li>
-                         <li><img src="../img/ico05.png" alt=""></li>
+                         
                      </ul>
                     
                 </div>
@@ -178,11 +195,10 @@
                 <div class="pic-circle-06"></div>
 
                 <br>
-                <strong> CREZCAMOS S.A </strong>
+                <strong> OLIMPICA S.A. </strong>
                 <br>
-                <br>Invertir para contribuir al crecimiento de la micro, pequeña y mediana empresa, de la población de bajos ingresos rural y urbana.
-                <br>
-                <br>Carrera 9 #23 esquina, Tunja, Boyacá
+                <br>Olímpica es la cadena de retail más grande de Colombia con capital 100% nacional. Somos reconocidos como una compañía líder en la comercialización de productos de consumo masivo de óptima calidad.
+                <br>Avenida 68 # 75a
                 <br><br>
                     <div> 
                      <ul>
@@ -198,11 +214,11 @@
                 <div class="pic-circle-07"></div>
 
                 <br>
-                <strong> CREZCAMOS S.A </strong>
+                <strong> PRODUCTOS RAMO SAS </strong>
                 <br>
-                <br>Invertir para contribuir al crecimiento de la micro, pequeña y mediana empresa, de la población de bajos ingresos rural y urbana.
+                <br>Somos una de las principales compañías de alimentos en Colombia con más de 65 años de historia. 
                 <br>
-                <br>Carrera 9 #23 esquina, Tunja, Boyacá
+                <br>Cra. 27a ## 68 - 50, Bogotá
                 <br><br>
                     <div> 
                      <ul>
@@ -221,19 +237,18 @@
                 <div class="pic-circle-08"></div>
 
                 <br>
-                <strong> CREZCAMOS S.A </strong>
+                <strong> MANUFACTURAS ELIOT S.A.S </strong>
                 <br>
-                <br>Invertir para contribuir al crecimiento de la micro, pequeña y mediana empresa, de la población de bajos ingresos rural y urbana.
+                <br>Manufacturas Eliot S.A.S. es una empresa industrial y comercial de textiles y confecciones con más de 50 años de experiencia en el mercado.
                 <br>
-                <br>Carrera 9 #23 esquina, Tunja, Boyacá
+                <br>Cra. 62 #1761, Bogotá
                 <br><br>
                     <div> 
                      <ul>
                          <li><img src="../img/ico05.png" alt=""></li>
                          <li><img src="../img/ico05.png" alt=""></li>
                          <li><img src="../img/ico05.png" alt=""></li>
-                         <li><img src="../img/ico05.png" alt=""></li>
-                         <li><img src="../img/ico05.png" alt=""></li>
+                        
                      </ul>
                     
                 </div>
@@ -241,11 +256,11 @@
                 <div class="pic-circle-09"></div>
 
                 <br>
-                <strong> CREZCAMOS S.A </strong>
+                <strong> LINEA DIRECTA </strong>
                 <br>
-                <br>Invertir para contribuir al crecimiento de la micro, pequeña y mediana empresa, de la población de bajos ingresos rural y urbana.
+                <br>Línea Directa S.A es una empresa que se dedica al diseño y producción de calzado y ropa interior y exterior para hombre y mujer. 
                 <br>
-                <br>Carrera 9 #23 esquina, Tunja, Boyacá
+                <br>Carrera 48 # 98a Sur-403, La Estrella, Antioquia
                 <br><br>
                     <div> 
                      <ul>

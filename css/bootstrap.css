@@ -2986,8 +2986,10 @@ fieldset:disabled a.btn {
 
 .btn-block {
   display: block;
-  width: 100%;
+  width: 80%;
+  
 }
+
 
 .btn-block + .btn-block {
   margin-top: 0.5rem;
@@ -10220,70 +10222,87 @@ footer ul li{
   background-image: url(../img/pic01.png);
   background-position: center;
   background-size: 100px;
+  cursor: pointer;
 }
 
 .pic-circle-02{
   width: 100px;
   height: 100px;
   border-radius: 50%;
-  background-image: url(../img/pic00.png);
+  background-image: url(../img/pic02.png);
   background-position: center;
+  background-size: 100px;
+  cursor: pointer;
+
 }
 
 .pic-circle-03{
   width: 100px;
   height: 100px;
   border-radius: 50%;
-  background-image: url(../img/pic00.png);
+  background-image: url(../img/pic03.png);
   background-position: center;
+  cursor: pointer;
 }
 
 .pic-circle-04{
   width: 100px;
   height: 100px;
   border-radius: 50%;
-  background-image: url(../img/pic00.png);
+  background-image: url(../img/pic04.png);
   background-position: center;
+  background-size: 150px;
+  cursor: pointer;
+
 }
 
 .pic-circle-05{
   width: 100px;
   height: 100px;
   border-radius: 50%;
-  background-image: url(../img/pic00.png);
+  background-image: url(../img/pic05.png);
   background-position: center;
+  cursor: pointer;
 }
 
 .pic-circle-06{
   width: 100px;
   height: 100px;
   border-radius: 50%;
-  background-image: url(../img/pic00.png);
+  background-image: url(../img/pic06.png);
   background-position: center;
+  cursor: pointer;
+  
 }
 
 .pic-circle-07{
   width: 100px;
   height: 100px;
   border-radius: 50%;
-  background-image: url(../img/pic00.png);
+  background-image: url(../img/pic07.png);
   background-position: center;
+  background-size: 200px;
+  cursor: pointer;
+
 }
 
 .pic-circle-08{
   width: 100px;
   height: 100px;
   border-radius: 50%;
-  background-image: url(../img/pic00.png);
+  background-image: url(../img/pic08.png);
   background-position: center;
+  cursor: pointer;
+  background-size: 160px;
 }
 
 .pic-circle-09{
   width: 100px;
   height: 100px;
   border-radius: 50%;
-  background-image: url(../img/pic00.png);
+  background-image: url(../img/pic09.png);
   background-position: center;
+  cursor: pointer;
 }
 
  div ul li{
@@ -10297,4 +10316,49 @@ div ul {
   left: 100px;
   padding: 0px;
   
+}
+
+.container-empleo{
+  width: auto;
+  height: auto;
+  background-color: rgb(233, 233, 233);
+  padding: 10px;
+}
+
+.container-empleo-header{
+  width: auto;
+  height: auto;
+  background-color: rgb(206, 206, 206);
+  padding: 10px;
+  font-size: 20px;
+}
+
+strong a{
+  color: rgb(83, 83, 83)
+}
+
+strong a:hover{
+  color: rgb(7, 7, 7);
+  text-decoration: none;
+}
+
+.without-design{
+  color: rgb(59, 59, 59);
+
+}
+
+.without-design:hover{
+  color: rgb(17, 17, 17);
+  text-decoration: none;
+}
+
+div li{
+  list-style: none;
+  padding-left: 40px;
+}
+
+.float-left-2{
+  float: left;
+  width: 20%;
+  margin-right: 30px;
 }
